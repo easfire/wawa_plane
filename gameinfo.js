@@ -51,7 +51,6 @@ export default class GameInfo {
             );
         }
 
-
         ctx.drawImage(
             atlas,
             120, 6, 39, 24,
