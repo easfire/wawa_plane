@@ -47,7 +47,7 @@ export default class Main
   enemyGenerate() {
       if (databus.frame % 30 === 0) {
           let enemy = databus.pool.getItemByClass('enemy', Enemy);
-          enemy.init(6);
+          enemy.init(4);
           databus.enemys.push(enemy);
       }
   }
