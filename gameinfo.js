@@ -33,7 +33,7 @@ export default class GameInfo {
 
         if(score < 30){
             ctx.fillText(
-                '😢😢😢😢  ' + score + '分',
+                'o(╥﹏╥)o ' + score + '分',
                 screenWidth / 2 - 40,
                 screenHeight / 2 - 100 + 130
             );

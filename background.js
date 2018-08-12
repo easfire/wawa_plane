@@ -7,7 +7,7 @@ const screenHeight = window.innerHeight
 // const BG_WIDTH     = 512;
 // const BG_HEIGHT    = 512;
 
-const BG_IMG_SRC   = 'images/new-1.png';
+const BG_IMG_SRC   = 'images/new-4.png';
 const BG_WIDTH     = 792;
 const BG_HEIGHT    = 1350;
 
