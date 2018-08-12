@@ -26,16 +26,31 @@ export default class GameInfo {
         ctx.font    = "20px Arial";
 
         ctx.fillText(
-            '游戏结束',
+            'GAME OVER !!',
             screenWidth / 2 - 40,
             screenHeight / 2 - 100 + 50
         );
 
-        ctx.fillText(
-            '得分: ' + score,
-            screenWidth / 2 - 40,
-            screenHeight / 2 - 100 + 130
-        );
+        if(score < 30){
+            ctx.fillText(
+                '😢😢😢😢  ' + score + '分',
+                screenWidth / 2 - 40,
+                screenHeight / 2 - 100 + 130
+            );
+        }else if(score > 30 && score < 60){
+            ctx.fillText(
+                'o(*￣︶￣*)o ' + score + '分咯',
+                screenWidth / 2 - 40,
+                screenHeight / 2 - 100 + 130
+            );
+        }else{
+            ctx.fillText(
+                '<(*￣▽￣*)/ ' + score + '分！',
+                screenWidth / 2 - 40,
+                screenHeight / 2 - 100 + 130
+            );
+        }
+
 
         ctx.drawImage(
             atlas,
